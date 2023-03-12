@@ -29,6 +29,7 @@ a {
   box-sizing: border-box;
 }
 
+/* 
 .cardddd{
   background-color: red;
   height: 100px;
@@ -39,4 +40,26 @@ a {
   display: flex;
   flex-direction: wrap;
   gap: 4px;
+} */
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.no-scroll-bar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
